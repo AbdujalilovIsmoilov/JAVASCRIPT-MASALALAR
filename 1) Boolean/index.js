@@ -124,3 +124,67 @@ Jumlani rostlikka tekshiring:
 //     ? true
 //     : false;
 // console.log(result);
+
+/*  14) Uchta A, B, C butun sonlari berilgan. 
+Jumlani rostlikka tekshiring:
+"A, B, C sonlaridan faqat bittasi musbat." 
+*/
+
+// let a = Number(prompt("1-sonni yozing"));
+// let b = Number(prompt("2-sonni yozing"));
+// let c = Number(prompt("3-sonni yozing"));
+
+// let result =
+//   (a > 0 && b < 0 && c < 0) ||
+//   (a < 0 && b > 0 && c < 0) ||
+//   (a < 0 && b < 0 && c > 0)
+//     ? true
+//     : false;
+// console.log(result);
+
+/*
+15) Uchta A, B, C butun sonlari berilgan.
+Jumlani rostlikka tekshiring:
+"A, B, C sonlardan faqat ikkitasi musbat son".
+*/
+
+// let a = Number(prompt("1-sonni yozing"));
+// let b = Number(prompt("2-sonni yozing"));
+// let c = Number(prompt("3-sonni yozing"));
+
+// let result = (a < 0 && b > 0 && c > 0) || (a > 0 && b < 0 && c > 0) || (a > 0 && b > 0 && c < 0) ? true : false;
+// console.log(result);
+
+/*
+16) Musbat son berilgan.
+Jumlani rostlikka tekshiring:
+"Berilgan son ikki xonali juft son".
+*/
+
+// let a = Number(prompt("Sonni yozing",""));
+
+// let result = (a % 2 == 0 && a > 9) ? true : false;
+// console.log(result);
+
+/*
+17) Musbat son berilgan. 
+Jumlani rostlikka tekshiring:
+"Berilgan son uch xonali toq".
+*/
+
+// let a = Number(prompt("Sonni yozing",""));
+
+// let result = (a % 2 == 0 && a > 29) ? true : false;
+// console.log(result);
+
+/*
+18) Jumlani rostlikka tekshiring:
+"Berilgan uchta butun sonlarning hech bo'lmaganda 2 tasi bir biriga teng"
+*/
+
+// let a = Number(prompt("1-sonni yozing"));
+// let b = Number(prompt("2-sonni yozing"));
+// let c = Number(prompt("3-sonni yozing"));
+
+// let result = ((a == b) || (b == c) || (a == c));
+// console.log(result);
