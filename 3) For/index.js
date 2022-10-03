@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 /*
 1) K va n butun sonlari berilgan (n < 0).
 k sonini n marta chiqaruvchi programma tuzilsin.
@@ -33,13 +31,11 @@ kamayish tartibida chiqaruvchi va chiqarilgan sonlar sonini chiqaruvchi
 programma tuzilsin.
 */
 
+// let j = 1;
+// let x = 0;
+// let k = 10;
 
-let a = 1;
-let b = 10;
-
-for(let i = b; i > a; i--){
-  if(i == 10){
-    continue;
-  }
-  console.log(i);
-}
+// for(let i = k-1; i > j; i--){
+//   x++;
+//   console.log(`i: ${i}; x: ${x};`);
+// }
