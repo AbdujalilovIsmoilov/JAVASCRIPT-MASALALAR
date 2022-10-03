@@ -39,3 +39,20 @@ programma tuzilsin.
 //   x++;
 //   console.log(`i: ${i}; x: ${x};`);
 // }
+
+
+/* 
+4) Bir kg konfetning narxi berilgan (haqiqiy son).
+1, 2, ..., 10 kg konfetni narxini chiqaruvchi 
+programma tuzilsin.
+*/
+
+// let x = 1000;
+// for(let i = 1; i <= 10; i++){
+//   console.log(`${i} kg konfet narxi: ${i * x} so'm`);
+// }
+
+
+/* 
+5) 
+*/
