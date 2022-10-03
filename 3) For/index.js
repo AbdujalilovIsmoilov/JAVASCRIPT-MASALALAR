@@ -34,3 +34,12 @@ programma tuzilsin.
 */
 
 
+let a = 1;
+let b = 10;
+
+for(let i = b; i > a; i--){
+  if(i == 10){
+    continue;
+  }
+  console.log(i);
+}
