@@ -197,5 +197,9 @@ Jumlani rostlikka tekshiring:
 
 let a = Number(prompt("1-sonni chiqaring"));
 let b = Number(prompt("2-sonni chiqaring"));
-let result = a > 0 && b < 0 || a < 0 && b > 0 ? true : false;
-console.log(result);
+let c = Number(prompt("3-sonni chiqaring"));
+let result = (a == -b) || 
+             (b == -c) ||
+             (a == -c) ?
+             true : false;
+console.log(result); 
