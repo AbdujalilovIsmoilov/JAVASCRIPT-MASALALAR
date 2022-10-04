@@ -188,3 +188,14 @@ Jumlani rostlikka tekshiring:
 
 // let result = ((a == b) || (b == c) || (a == c));
 // console.log(result);
+
+
+/*
+19) Jumlani rostlikka tekshiring: 
+"Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
+*/
+
+let a = Number(prompt("1-sonni chiqaring"));
+let b = Number(prompt("2-sonni chiqaring"));
+let result = a > 0 && b < 0 || a < 0 && b > 0 ? true : false;
+console.log(result);
