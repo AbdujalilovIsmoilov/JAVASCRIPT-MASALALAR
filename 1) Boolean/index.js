@@ -195,11 +195,28 @@ Jumlani rostlikka tekshiring:
 "Berilgan uchta butun sonlarning hech bo'lmaganda bir jufti o'zaro qarama-qarshi".
 */
 
-let a = Number(prompt("1-sonni chiqaring"));
-let b = Number(prompt("2-sonni chiqaring"));
-let c = Number(prompt("3-sonni chiqaring"));
-let result = (a == -b) || 
-             (b == -c) ||
-             (a == -c) ?
-             true : false;
-console.log(result); 
+// let a = Number(prompt("1-sonni chiqaring"));
+// let b = Number(prompt("2-sonni chiqaring"));
+// let c = Number(prompt("3-sonni chiqaring"));
+// let result = (a == -b) || 
+//              (b == -c) ||
+//              (a == -c) ?
+//              true : false;
+// console.log(result); 
+
+
+/*
+20) Uch xonali son berilgan.
+Jumlani rostlikka tekshiring:
+"Ushbu sonning barcha raqamlari xar xil".
+*/
+
+// let a = Number(prompt("Sonni chiqaring"));
+
+// let yuz = Math.floor(a/100);
+// let onlik_va_birlik = a%100;
+// let onlik = Math.floor(onlik_va_birlik / 10);
+// let bir = onlik_va_birlik % 10;
+// let result = (bir !== onlik) && (bir !== yuz) && (onlik !== yuz) ? true : false;
+// console.log(result);
+
