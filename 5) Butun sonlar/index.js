@@ -62,3 +62,52 @@ A kesmada B kesmaning joylashmagan qismini aniqlovchi programma tuzilsin.
 raqamini, so'ng birlar xonasidagi raqamini chiqaruvchi programma tuzilsin.
 */
 
+// let a = Number(prompt("Sonni yozing"));
+// let birlik = Math.floor(a / 10);
+// let onlik = a % 10;
+// console.log(`Birlik xonasi: ${birlik}. Onliklar xonasi: ${onlik}`);
+
+
+/*Integer7. Ikki xonali son berilgan. Uning raqamlar yig'indisini 
+aniqlovchi programma tuzilsin.
+*/
+
+// let a = Number(prompt("Sonni yozing"));
+// let birlik = Math.floor(a / 10);
+// let onlik = a % 10;
+// let result = birlik + onlik;
+// console.log(result);
+
+
+/*Integer8. Ikki xonali son berilgan. Uning raqamlari o'rnini 
+almashtirilishdan hosil bo'lgan sonni aniqlovchi programma tuzilsin. 
+*/
+
+// let a = Number(prompt("Sonni yozing"));
+// let birlik = Math.floor(a / 10);
+// let onlik = a % 10;
+// [birlik,onlik] = [onlik,birlik];
+// console.log(parseInt(birlik + "" +onlik));
+
+
+/*Integer9. Uch xonali son berilgan. Uning yuzlar xonasidagi raqamini aniqlovchi
+programma tuzilsin.
+*/
+
+// let a = Number(prompt("Sonni yozing"));
+// let result = a > 99 ? `${a % 1000} soni yuzlik son` : `${a} soni yuzlik son emas`;
+// console.log(result);
+
+
+/*Integer10. Uch xonali son berilgan. Oldin uni birliklar xonasidagi raqamini
+so'ng o'nliklar xonasidagi raqamini chiqaruvchi programma tuzilsin.
+*/
+
+// let a = Number(prompt("Sonni yozing"));
+// let birlik = a > 99 && a <= 999 ? Math.floor(a / 100) : `${a} bu yuzlik son emas`;
+// let onlik = a % 100;
+// console.log(`Birliklar xonasidagi son ${birlik} va O'nliklar xonasidagi son ${onlik}`);
+
+/*Integer11. Uch xonali son berilgan. Uning raqamlar yigindisini 
+aniqlovchi programma tuzilsin.
+*/
