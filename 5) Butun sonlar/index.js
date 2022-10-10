@@ -45,3 +45,20 @@ mumkinligini aniqlovchi programma tuzilsin.
 // let result = Math.floor(a / b);
 // console.log(`${a} kesmada ${b} kesmani ${result} marta joylashtirish mumkin.`);
 
+
+/*Integer5. A va B (A > B) musbat sonlari berilgan.
+A kesmada B kesmani necha marta joylashtirish mumkin.
+A kesmada B kesmaning joylashmagan qismini aniqlovchi programma tuzilsin.
+*/
+
+// let a = Number(prompt("1-sonni yozing"));
+// let b = Number(prompt("2-sonni yozing"));
+// let result = Math.floor(a / b);
+// let qoldiq = a % b;
+// console.log(`${a} kesmada ${b} kesmani ${result} marta joylashtirish mumkin. Joylashmagan qismi ${qoldiq}`);
+
+
+/*Integer6. Ikki xonali son berilgan. Oldin uning o'nliklar xonasidagi 
+raqamini, so'ng birlar xonasidagi raqamini chiqaruvchi programma tuzilsin.
+*/
+
