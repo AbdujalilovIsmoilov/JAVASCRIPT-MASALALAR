@@ -114,11 +114,11 @@ a dan b gacha bo'lgan barcha butun sonlar kvadratlarning
 yigindisini chiqaruvchi programma tuzing.
 */
 
-let a = 2;
-let b = 4;
-let x = 1;
+// let a = 2;
+// let b = 4;
+// let x = 1;
 
-for(let i = a; i <= b; i++){
-  x *= i * i;
-  console.log(x);
-}
+// for(let i = a; i <= b; i++){
+//   x *= i * i;
+//   console.log(x);
+// }

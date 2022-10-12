@@ -9,7 +9,6 @@ programma tuzilsin. (1m=100cm)
 // let result = L / sm;
 // console.log(`${L} sm ${result} metr`);
 
-
 /*
 Integer2. Og'irlik M kilogramda berilgan. 
 Undagi to'liq tonnalar sonini chiqaruvchi 
@@ -20,7 +19,6 @@ programma tuzilsin. (1t=1000kg);
 // let M = Number(prompt("Kg ni yozing"));
 // let result = M / kg;
 // console.log(`${M} kg => ${result} tonna`);
-
 
 /*
 Integer3. Faylning hajmi baytlarda berilgan.
@@ -34,7 +32,6 @@ programma tuzilsin. (1Kb = 1024 bayt).
 // let result = bayt / Kb  ;
 // console.log(`${Kb} Bayt => ${result} Kb`);
 
-
 /*Integer4. A va B (A < B) musbat sonlari berilgan.
 A kesmada, B kesmani necha marta joylashtirish 
 mumkinligini aniqlovchi programma tuzilsin.
@@ -44,7 +41,6 @@ mumkinligini aniqlovchi programma tuzilsin.
 // let b = Number(prompt("2-sonni yozing"));
 // let result = Math.floor(a / b);
 // console.log(`${a} kesmada ${b} kesmani ${result} marta joylashtirish mumkin.`);
-
 
 /*Integer5. A va B (A > B) musbat sonlari berilgan.
 A kesmada B kesmani necha marta joylashtirish mumkin.
@@ -57,7 +53,6 @@ A kesmada B kesmaning joylashmagan qismini aniqlovchi programma tuzilsin.
 // let qoldiq = a % b;
 // console.log(`${a} kesmada ${b} kesmani ${result} marta joylashtirish mumkin. Joylashmagan qismi ${qoldiq}`);
 
-
 /*Integer6. Ikki xonali son berilgan. Oldin uning o'nliklar xonasidagi 
 raqamini, so'ng birlar xonasidagi raqamini chiqaruvchi programma tuzilsin.
 */
@@ -66,7 +61,6 @@ raqamini, so'ng birlar xonasidagi raqamini chiqaruvchi programma tuzilsin.
 // let birlik = Math.floor(a / 10);
 // let onlik = a % 10;
 // console.log(`Birlik xonasi: ${birlik}. Onliklar xonasi: ${onlik}`);
-
 
 /*Integer7. Ikki xonali son berilgan. Uning raqamlar yig'indisini 
 aniqlovchi programma tuzilsin.
@@ -78,7 +72,6 @@ aniqlovchi programma tuzilsin.
 // let result = birlik + onlik;
 // console.log(result);
 
-
 /*Integer8. Ikki xonali son berilgan. Uning raqamlari o'rnini 
 almashtirilishdan hosil bo'lgan sonni aniqlovchi programma tuzilsin. 
 */
@@ -89,7 +82,6 @@ almashtirilishdan hosil bo'lgan sonni aniqlovchi programma tuzilsin.
 // [birlik,onlik] = [onlik,birlik];
 // console.log(parseInt(birlik + "" +onlik));
 
-
 /*Integer9. Uch xonali son berilgan. Uning yuzlar xonasidagi raqamini aniqlovchi
 programma tuzilsin.
 */
@@ -97,7 +89,6 @@ programma tuzilsin.
 // let a = Number(prompt("Sonni yozing"));
 // let result = a > 99 ? `${a % 1000} soni yuzlik son` : `${a} soni yuzlik son emas`;
 // console.log(result);
-
 
 /*Integer10. Uch xonali son berilgan. Oldin uni birliklar xonasidagi raqamini
 so'ng o'nliklar xonasidagi raqamini chiqaruvchi programma tuzilsin.
@@ -111,3 +102,18 @@ so'ng o'nliklar xonasidagi raqamini chiqaruvchi programma tuzilsin.
 /*Integer11. Uch xonali son berilgan. Uning raqamlar yigindisini 
 aniqlovchi programma tuzilsin.
 */
+
+const a = Number(prompt("Sonni yozing"));
+const x = Math.floor(a / 100);
+console.log(x);
+const y = Math.floor((a % 100) / 10);
+console.log(y);
+if (a > 99 && a <= 999) {
+  var g = Math.ceil((a % 100) / 10);
+  console.log(g);
+} else {
+  console.log(`${a} bu son 3 xonali son emas`);
+}
+
+let result = x + y + g;
+console.log(result);
