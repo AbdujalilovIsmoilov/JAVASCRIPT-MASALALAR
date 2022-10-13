@@ -103,17 +103,58 @@ so'ng o'nliklar xonasidagi raqamini chiqaruvchi programma tuzilsin.
 aniqlovchi programma tuzilsin.
 */
 
-const a = Number(prompt("Sonni yozing"));
-const x = Math.floor(a / 100);
-console.log(x);
-const y = Math.floor((a % 100) / 10);
-console.log(y);
-if (a > 99 && a <= 999) {
-  var g = Math.ceil((a % 100) / 10);
-  console.log(g);
-} else {
-  console.log(`${a} bu son 3 xonali son emas`);
-}
+// const a = Number(prompt("Sonni yozing"));
+// const x = Math.floor(a / 100);
+// console.log(x);
+// const y = Math.floor((a % 100) / 10);
+// console.log(y);
+// if (a > 99 && a <= 999) {
+//   var g = Math.ceil((a % 100) / 10);
+//   console.log(g);
+// } else {
+//   console.log(`${a} bu son 3 xonali son emas`);
+// }
 
-let result = x + y + g;
-console.log(result);
+// let result = x + y + g;
+// console.log(result);
+
+/*Integer12. Uch xonali son berilgan. Uning raqamlar teskari tartibda 
+yozishdan hosil bo'lgan sonni aniqlovchi programma tuzilsin.
+*/
+
+// let a = Number(prompt("Sonni yozing"));
+
+// let x = Math.floor(a / 100);
+// let y = Math.floor((a % 100) / 10);
+// let z = Math.floor(a % 10);
+// [x, y, z] = [z, y, x];
+// if (isNaN(a)) {
+//   console.log("Son emas");
+// } else if (a > 99 && a <= 999) {
+//   console.log(Number(x + "" + y + "" + z));
+// } else {
+//   console.log("3 xonali son emas");
+// }
+
+
+/*Integer13. Uch xonali son berilgan. Uning chapdan 
+birinchi raqamini o'chirib o'ng tarafiga yozishdan hosil bo'lgan
+sonni aniqlovchi programma tuzilsin.
+*/
+
+
+// let a = Number(prompt("Sonni yozing"));
+
+// let x = Math.trunc(a / 100);
+// let y = Math.trunc(a % 10);
+// let z = Math.ceil((a % 100) / 10);
+// console.log(x);
+// console.log(y);
+// console.log(z);
+// console.log(x);
+
+// for(let i = 10; i <= 1; i--){
+//   for(let j = 1; j <= i; j++){
+//     console.log("*");
+//   }
+// }
