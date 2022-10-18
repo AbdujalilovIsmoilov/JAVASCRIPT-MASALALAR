@@ -163,5 +163,60 @@ A son kichik B son katta bo'lsin. A va B ning qiymatini ekranga chiqarilsin.
 //   console.log(`A: ${b} soni kichik. B: ${a} soni katta`);
 // }
 
-/* if #10.
+
+/* if #10. A va B sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa,
+A va B o'zgaruvchilari ularning yig'indisini o'zlashtirsin. Agar teng bo'lsa, 
+0 ni o'zlashtirsin. A va B ning qiymati ekranga chiqarilsin.
  */
+
+// const a = Number(prompt("1-sonni yozing"));
+// const b = Number(prompt("2-sonni yozing"));
+
+// if(a != b){
+//   console.log(`a va b sonining yig'indisi: ${a + b} ga teng`);
+// }else {
+//   console.log(`a: ${a}. b: ${b}. Natija: ${0}`);
+// }
+
+
+/* if #11. A va B sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa,
+A va B bu sonlarning kattasini o'zlashtirsin. Agar teng bo'lsa, 0 ni o'zlashtirsin.
+A va B ning qiymati ekranga chiqarilsin. 
+ */
+
+// const a = Number(prompt("1-sonni yozing"));
+// const b = Number(prompt("2-sonni yozing"));
+
+// if(a != b){
+//   console.log(a > b || b < a ? `Katta son: ${a}` : `Katta son: ${b}`);
+// }else {
+//   console.log(`a: ${a}. b: ${b}. Ikkala son bir-biriga teng.  Natija: ${0}`);
+// }
+
+
+/* if #12. Uchta son berilgan. Shu sonlarni kichigini aniqlovchi programma tuzilsin.
+ */
+
+// const a = Number(prompt("1-sonni yozing"));
+// const b = Number(prompt("2-sonni yozing"));
+// const c = Number(prompt("3-sonni yozing"));
+
+// if(a < b && a < c){
+//   console.log(`Kichik son a: ${a}`);
+// }else if(b < a && b < c){
+//   console.log(`Kichik son b: ${b}`);
+// }else {
+//   console.log(`Kichik son c: ${c}`);
+// }
+
+
+/* if #13. Uchta son berilgan. Shu sonlarni o'rtachasi (ya'ni katta va kichik sonlar
+orasidagi son) ni aniqlovchi programma tuzilsin.
+ */
+
+
+
+/* if #14. 
+ */
+
+// Azimjon Pulatov
