@@ -152,9 +152,9 @@ tuzilsin. A[0], A[2], A[4], ... Shart operatori ishlatilmasin.
 
 // let k = Number(prompt("Sonni kiriting"));
 // let n = [];
-// for(let i = 1; i <= k; i++){
+// for(let i = 2; i <= k; i+=2){
 //   n.push(i);
-//   console.log(`A[${i * 2}]`);
+//   console.log(`A[${i}]`);
 // }
 
 // const r = n.map(item => {
@@ -172,3 +172,21 @@ keyin toq indekslilarni chiqaruvchi programma tuzilsin.
 */
 
 // let k = Number(prompt("Sonni kiriting"));
+// let n = [];
+// const juft = [];
+// const toq = [];
+// let s = 0;
+// let t = 0;
+
+// for(let i = 1; i <= 10; i+=2){
+//   t++;
+//   toq.push(i);
+// }
+// for(let j = 2; j <= 10; j+=2){
+//   s++;
+//   juft.push(j);
+// }
+// console.log(juft);
+// console.log(toq);
+// console.log(`Juft sonlar: ${s} ta`);
+// console.log(`Toq sonlar: ${t} ta`);

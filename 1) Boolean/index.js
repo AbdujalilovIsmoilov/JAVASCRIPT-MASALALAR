@@ -220,3 +220,9 @@ Jumlani rostlikka tekshiring:
 // let result = (bir !== onlik) && (bir !== yuz) && (onlik !== yuz) ? true : false;
 // console.log(result);
 
+
+/*
+21) Uch xonali son berilgan. Jumlani rostlikka tekshiring:
+Ushbu sonning raqamlari ketma-ket o'suvchi bo'lib joylashgan.
+*/
+
