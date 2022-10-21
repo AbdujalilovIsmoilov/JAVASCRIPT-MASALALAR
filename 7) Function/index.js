@@ -96,3 +96,30 @@ void Swap (int * int);
 // Swap(a,b,c,d);
 
 
+
+/* #11 X va Y sonlaridan X ga va kattasini Y ga yozuvchi Minmax(X,Y) funksiyasini
+hosil qiling. Minmax(X,Y) funksiyasini hosil qiling. Minmax funksiyasini 4 marta 
+chaqish orqali a,b,c,d butun sonlaridan kattasini va kichigini aniqlovchi 
+programma tuzilsin. 
+*/
+
+
+/* #12 A, B, C sonlarini o'sish tartibida joylashtiruvchi SortInc3(A,B,C) funksiyasini
+hosil qiling. Ya'ni A, B, C sonlari qiymatlarini shunday almashtirishki, natijada A ning 
+qiymati eng kichik va C ning qiymati eng katta bo'lsin. Bu funksiya orqali (A1,B1,C1)
+va (A2,B2,C2) sonlarini tartiblang.
+*/
+
+// let r = [];
+// function SortInc3(A, B, C) {
+//   r.push(A, B, C)
+//   if (A > B && B < A) {
+//     return [A, C] = [C, A]
+//   }
+
+// }
+// SortInc3(5, 2, 10);
+// let result = r.sort((a, b) => {
+//   return a - b;
+// });
+// console.log(result);
